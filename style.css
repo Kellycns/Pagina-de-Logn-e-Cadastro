@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body{
+    background-color: rgb(66, 141, 184);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 100vw;
+    font-size: 20px;
+}
+.estrutura{
+    margin: 50px 200px;
+    display: flex;
+}
+.area_esquerda{
+    background-color: rgb(28, 226, 193);
+}
+.monitor{
+    width: 50px;
+}
+.imagem_e_frase{
+    margin: 70px 50px 60px;
+    text-align: center;
+}
+.imagem_e_frase p{
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foguete{
+    width: 300px;
+    margin-top: 20px;
+}
+.area_esquerda, .area_direita{
+    padding: 15px;
+    width: 50%;
+}
+.area_direita{
+    background-color: rgb(9, 9, 56);
+}
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+}
+.botao_esquerdo, .botao_direito{
+    background-color: rgba(255, 255, 255, 0.493);
+}
+.botao_esquerdo, .botao_direito, .botao_enviar{
+    height: 35px;
+    border: none;
+    padding: 0px 20px;
+    color: #fff;
+}
+.botao_esquerdo{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.botao_direito{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.formulario{
+    margin-left: 25px;
+    padding: 80px 0;
+}
+.campo{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+    width: 60%;
+}
+.campo:focus{
+    outline: none;
+}
+input, label{
+    margin-bottom: 20px;
+}
+.concordo_texto{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.493);
+}
+.concordo_texto, #concordo{
+    margin: 30px 0px;
+}
+.botao_enviar{
+    border-radius: 20px;
+    padding: 0px 50px;
+    background-color: rgb(28, 226, 193);
+}
