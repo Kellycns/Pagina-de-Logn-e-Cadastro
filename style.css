@@ -35,7 +35,7 @@ body{
     width: 50%;
 }
 .area_direita{
-    background-color: rgb(9, 9, 56);
+    background-color: rgb(5, 5, 29);
 }
 .botoes{
     display: flex;
@@ -73,6 +73,9 @@ body{
 }
 input, label{
     margin-bottom: 20px;
+}
+.quadrado{
+    accent-color: rgb(28, 226, 193);
 }
 .concordo_texto{
     font-size: 14px;
